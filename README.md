@@ -11,3 +11,5 @@ Features:
 
 - Learn variadic functions and step up your C skills 🎧
 - Super lightweight, just the essentials 🔥
+
+<img src="jake.gif" width="400" height="250" />
