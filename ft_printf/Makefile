@@ -15,6 +15,7 @@ SRCS =	ft_printf.c ft_printf_number_hex.c\
 		ft_printf_int_decimal.c
 		
 OBJS = ${SRCS:.c=.o}
+
 NAME = libftprintf.a
 LIBC = ar rcs
 CC = cc

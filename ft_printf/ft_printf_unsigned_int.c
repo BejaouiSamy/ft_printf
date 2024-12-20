@@ -60,3 +60,18 @@ int	ft_putunsigned(unsigned int nb)
 	}
 	return (char_printed);
 }
+/*La fonction ft_unsigned_len calcule la
+longueur (en nombre de chiffre) de l'entier
+non signe (nb) lorsqu'il est represente en
+base 10.
+
+La fonction ft_uitoa convertit un entier non
+signe (nb) en une chaine de caracteres
+representant cet entier en base 10.
+
+La fonction ft_putunsigned affiche un entier
+non signe (nb) en appelant ft_uitoa pour le
+convertir en chaine de caracteres, puis en
+affichant la chaine via ft_putstr. Elle
+retourne egalement le nombre de caracteres
+imprimes.*/

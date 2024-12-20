@@ -54,3 +54,20 @@ int	ft_puthex(unsigned int num, const char format)
 		ft_put_hex(num, format);
 	return (hex_len(num));
 }
+/*La fonction hex_len calcule la longueur
+(en nombre de chiffres) de la representation
+hexadecimal de l'entier (num).
+
+La fonction ft_put_ex affiche recursivement
+un nombre en base hexadecimal. elle prend en
+compte le format(x pour minuscules, X
+pour majuscules) et affiche les chiffres
+hexadecimaux sous forme de caracteres.
+
+La fonction affiche un numbre en hexadecimal,
+en appelant ft_put_hex pour l'affichage, puis
+retourne la longueur de la chaine hexadecimal.
+Ex : 
+	Pour num = 255 et format = 'x', la fonction
+	affichera "ff" et retournera 2.
+*/

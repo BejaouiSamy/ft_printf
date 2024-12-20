@@ -15,6 +15,7 @@
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>
+#include <stdint.h>
 
 void		ft_put_hex(unsigned int num, const char format);
 void		ft_put_ptr(uintptr_t nb);

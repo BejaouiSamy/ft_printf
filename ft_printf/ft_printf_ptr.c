@@ -56,3 +56,14 @@ int	ft_putptr(uintptr_t ptr)
 	}
 	return (char_printed);
 }
+/*La fonction len_ptr calcule la longueur
+de la representation hexadecimal d'un pointeur
+(de type uintptr_t).
+
+La fonction ft_put_str affiche la representation
+hexadecimal d'un nombre (pointeur) passe en
+parametre.
+
+La fonction ft_putptr affiche un pointeur
+en hexadecimal precede de "0x", et retourne le
+nombrede caracteres affiches.*/

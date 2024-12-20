@@ -74,3 +74,21 @@ int	ft_putnbr(int n)
 	free(num);
 	return (len);
 }
+/* La fonction ft_char rempli un tableau de caracteres
+avec la representation en chaine d'entier, en ajoutant
+les chiffres un par un dans le tableau (s).
+
+La fonction ft_len calcule la longueur
+(en nombre de caracteres) necessaire pour representer
+un entier (n) en chaine de caracteres. On ne peut pas
+utiliser un strlen classique car elle est utile pour
+calculer la longueur d'une chaine deja creee. mais
+avant de creer la chaine qui representera l'entier
+nous ne connaissons pas encore sa longueur.
+
+La fonction ft_itoa converti un entier (n) en chaine
+de caracteres.
+
+La fonction ft_putnbr affiche un entier (n) en utilisant
+la fonction ft_itoa pour le convertir en chaine et
+ft_putstr pour l'afficher.*/
