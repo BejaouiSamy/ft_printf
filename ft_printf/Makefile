@@ -17,7 +17,7 @@ SRCS =	ft_printf.c ft_printf_number_hex.c\
 OBJS = ${SRCS:.c=.o}
 
 NAME = libftprintf.a
-LIBC = ar rcs
+LIBC = ar -rcs
 CC = cc
 RM = rm -f
 CFLAGS = -Wall -Wextra -Werror
@@ -26,6 +26,9 @@ ${NAME}: ${OBJS}
 	${LIBC} ${NAME} ${OBJS}
 
 all: ${NAME}
+
+%.o: %.c ft_printf.h Makefile
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 clean:
 	${RM} ${OBJS}

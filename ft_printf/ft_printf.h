@@ -6,16 +6,17 @@
 /*   By: bsamy <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 13:14:13 by bsamy             #+#    #+#             */
-/*   Updated: 2024/12/18 13:14:15 by bsamy            ###   ########.fr       */
+/*   Updated: 2025/01/06 15:17:37 by bsamy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
+
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>
-#include <stdint.h>
+# include <stdint.h>
 
 void		ft_put_hex(unsigned int num, const char format);
 void		ft_put_ptr(uintptr_t nb);
